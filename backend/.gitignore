@@ -1,0 +1,37 @@
+# Backend Python files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.local
+
+# Database
+*.db
+*.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+/tmp/
+*.log
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Alembic
+alembic/versions/*.pyc
